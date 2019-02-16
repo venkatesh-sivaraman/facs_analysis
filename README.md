@@ -1,10 +1,10 @@
 # FACS Analysis
 
-The Jupyter notebook in this repo, `facs_analysis.ipynb`, walks you through the basic steps of analyzing Mass-Titr FACS results. For high-throughput binding experiments, the `highThroughputScripts` pipeline is available on [GitHub](https://github.com/KeatingLab/highThroughputScripts/tree/vs_optimization).
+The Jupyter notebook in this repo, `facs_analysis.ipynb`, walks you through the basic steps of analyzing FACS results. For high-throughput binding experiments, the `highThroughputScripts` pipeline is available on [GitHub](https://github.com/KeatingLab/highThroughputScripts/tree/vs_optimization).
 
 To complete the analysis, run all cells in order one-by-one unless otherwise specified, filling in or changing input values as needed. To export a plot, you may want to change the DPI in the `plt.figure` command, i.e. `plt.figure(..., dpi=160)`.
 
-**Requirements**: This notebook requires Python 2, and the following modules:
+**Requirements**: This notebook requires the following modules:
 
 * `FlowCytometryTools` (install using `pip install flowcytometrytools`)
 * `lmfit`
